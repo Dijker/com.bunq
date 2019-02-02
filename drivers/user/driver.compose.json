@@ -1,0 +1,32 @@
+{
+  "id": "user",
+  "name": {
+    "en": "bunq user"
+  },
+  "class": "other",
+  "capabilities": [],
+  "images": {
+    "large": "/drivers/user/assets/images/large.png",
+    "small": "/drivers/user/assets/images/small.png"
+  },
+  "pair": [
+    {
+      "id": "login_oauth2",
+      "template": "login_oauth2"
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "options": {
+        "singular": true
+      },
+      "navigation": {
+        "next": "add_devices"
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ]
+}

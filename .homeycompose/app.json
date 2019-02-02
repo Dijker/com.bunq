@@ -1,0 +1,24 @@
+{
+  "id": "com.bunq",
+  "version": "1.0.0",
+  "compatibility": ">=2.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "bunq"
+  },
+  "description": {
+    "en": "Connect Bunq with Homey"
+  },
+  "category": [
+    "internet"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Emile Nijssen",
+    "email": "emilenijssen@gmail.com"
+  }
+}
